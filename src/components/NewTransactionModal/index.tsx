@@ -65,7 +65,7 @@ export function NewTransactionModal() {
             {...register('category')}
           />
 
-<Controller
+          <Controller
             control={control}
             name="type"
             render={({ field }) => {
