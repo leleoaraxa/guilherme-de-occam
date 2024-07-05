@@ -47,6 +47,14 @@
       "type": "outcome",
       "createdAt": "2022-07-30T13:38:57.560Z",
       "id": 6
+    },
+    {
+      "id": 7,
+      "description": "Transação de Teste",
+      "price": 100,
+      "category": "Teste",
+      "type": "income",
+      "createdAt": "2024-07-05T09:46:07.630Z"
     }
   ]
 }
