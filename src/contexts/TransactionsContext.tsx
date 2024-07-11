@@ -41,7 +41,6 @@ export function TransactionsProvider({ children }: TransactionsProviderProps) {
         q: query,
       },
     })
-
     setTransactions(response.data)
   }, [])
 
@@ -64,7 +63,7 @@ export function TransactionsProvider({ children }: TransactionsProviderProps) {
 
   useEffect(() => {
     fetchTransactions()
-  }, [fetchTransactions])
+  }, [])
 
   return (
     <TransactionsContext.Provider
